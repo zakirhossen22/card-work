@@ -20,6 +20,7 @@ body
        align-items: center;
        justify-content: center;
 }
+/*---container-cards---*/
 .container .cards{
        position: relative;
        width: 300px;
@@ -30,9 +31,6 @@ body
        border-radius: 20px;
        overflow: hidden;
 }
-
-
-
 
 .container .cards .imgbx{
        position: absolute;
@@ -59,6 +57,7 @@ body
 .container .cards:hover .imgbx{
        transform:translateY(30px) scale(0.5);
 }
+/*---cards-end*---/
 
 /*----content----*/
 .container .cards .content{
@@ -96,7 +95,10 @@ body
               font-weight: 400;
               color: #03a9f4;
 }
+/*--content-end---*/
 
+
+/*----social-icon-start---*/
 .social-icon{
        position: relative;
        margin-top:5px;
@@ -128,9 +130,11 @@ body
        transform: rotate(360deg);
        background: #03a9f4;
 }
+/*social-icon-end*/
 
 
-/*-----responsive----*/
+
+/*-----responsive-start----*/
 @media only screen and (max-width:767px){
        .container{
               display:flex;
@@ -148,6 +152,7 @@ body
               margin-bottom: 10px;
        }
 }
+/*---Responsive end*---/
 
 
 
