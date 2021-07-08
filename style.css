@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       font-family: 'josefin sans',sans-serif;
+}
+
+body
+{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       min-height: 100vh;
+}
+.container{
+       width: 1280px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+.container .card{
+       position: relative;
+       width: 300px;
+       height: 400px;
+       background: linear-gradient(#2196f3, #2196f3 30%,
+       #1d3548 30%, #1d3548);
+       margin: 10px;
+       border-radius: 20px;
+}
